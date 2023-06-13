@@ -1,0 +1,66 @@
+.product{
+ transform: translate(154px, 10px);
+ -webkit-transform: translate(154px, 10px);
+ -moz-transform: translate(154px, 10px);
+ -ms-transform: translate(154px, 10px);
+ -o-transform: translate(154px, 10px);
+}
+
+@media (max-width: 765px) {
+ .product{
+  transform: translate(220px, 10px);
+  -webkit-transform: translate(220px, 10px);
+  -moz-transform: translate(220px, 10px);
+  -ms-transform: translate(220px, 10px);
+  -o-transform: translate(220px, 10px);
+}
+
+}
+
+
+@media (max-width: 625px) {
+  .product{
+   transform: translate(292px, 10px);
+   -webkit-transform: translate(292px, 10px);
+   -moz-transform: translate(292px, 10px);
+   -ms-transform: translate(292px, 10px);
+   -o-transform: translate(292px, 10px);
+}
+ 
+ }
+
+
+@media (max-width: 1161px) {
+ .title{
+  transform: translate(154px, 10px);
+  -webkit-transform: translate(154px, 10px);
+  -moz-transform: translate(154px, 10px);
+  -ms-transform: translate(154px, 10px);
+  -o-transform: translate(154px, 10px);
+}
+
+}
+
+
+@media (max-width: 539px) {
+  .title{
+   transform: translate(164px, 10px);
+   -webkit-transform: translate(164px, 10px);
+   -moz-transform: translate(164px, 10px);
+   -ms-transform: translate(164px, 10px);
+   -o-transform: translate(164px, 10px);
+}
+ 
+ }
+
+
+ @media (max-width: 426px) {
+  .title{
+   transform: translate(219px, 10px);
+   -webkit-transform: translate(219px, 10px);
+   -moz-transform: translate(219px, 10px);
+   -ms-transform: translate(219px, 10px);
+   -o-transform: translate(219px, 10px);
+}
+ 
+ }

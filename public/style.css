@@ -1,0 +1,68 @@
+body {
+ overflow-x: hidden;
+}
+.view-card{
+ transform: translate(58px, -164px);
+}
+
+.card {
+ border: none !important;
+ transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+}
+
+
+.card:hover {
+ transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ border: 1px rgba(0, 0, 0, 0.175) solid !important;
+ 
+}
+
+.card:hover .over {
+ /* background-color: #6b525275; */
+ /* background-color: #f2b06d4d; */
+ background-color: #ffdfbf47;
+ width: 100%;
+ height: 69%;
+ /*transform: translate(-16px, -348px);
+ */top: 0px;
+ left: 0;
+ position: absolute;
+ transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+}
+
+.view-card{
+ position: relative;
+ z-index: 4;
+visibility: hidden;
+}
+.card:hover .view-card{
+ visibility: visible;
+}
+
+.btn-ornange{
+ background: #FFDFBF !important;
+ width: 60%;
+ border-radius: 50rem;
+ font: normal normal normal 15px/20px Futura CAPTION;
+}
+
+.btn-orange-40{
+ background: #F2B06D !important ;
+}
+
+.font-weight-600{
+ font-weight: 600;
+}
+
