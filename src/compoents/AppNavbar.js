@@ -14,12 +14,13 @@ const AppNavbar = () => {
   <>
       <Navbar fixed='top' bg="light" expand="lg">
       <Container>
-        <Link to="/" className="navbar-brand">Cart App</Link>
+        <Link to="/" className="navbar-brand">Mohamed Express</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className="nav-link">Products</Link>
+            <Link to="https://mohamed-ali-hussain.netlify.app/" className="nav-link">Contact</Link>
             <Link to="/cart" className="nav-link">Cart - {cart.length}</Link>
+            <Link to="/admmin" className="nav-link">Admin</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
